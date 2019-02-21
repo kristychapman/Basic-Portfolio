@@ -19,20 +19,28 @@ body {
   }
 
 
-  .hdr_container {
-    background: turquoise;
+  .container {
+    background:white;
     width: 100%;
     
   }
   .hdr_nav{
-    color: blue;
+    position: relative;
+    background:orange;
     font-size: 14;
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-start;
-        
+    height: 60px;
+    
   }
 
+  .nav_name{
+    display: flex;
+    align-self: flex-end;
+    
+  }
+  .nav_nav{
+   
+
+  }
   h1 {
     padding: 20px 0;
     margin: 0;
@@ -48,7 +56,7 @@ body {
   }
   
   a {
-    color: #d21034;
+    color:blue;
   }
   #main-bio,
   #bio-image {
