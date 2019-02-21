@@ -24,7 +24,14 @@ body {
     width: 100%;
     
   }
-  
+  .hdr_nav{
+    color: blue;
+    font-size: 14;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+        
+  }
 
   h1 {
     padding: 20px 0;
@@ -43,24 +50,17 @@ body {
   a {
     color: #d21034;
   }
-  
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
   #main-bio,
   #bio-image {
       float: left;
     }
   
   #main-bio {
-    width: 90%;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 960px;
+    height: 960px;
     float: left;
-  }
-  
-  #contact-info {
-    width: 30%;
   }
   
   #bio-image {
@@ -68,13 +68,13 @@ body {
     height: 200px;
     margin-right: 20px;
   }
-  .box-set {
+ /*  .box-set {
     margin-top: 400px;
-    height: 900px;
+    height: 800px;
     background: white;
     position: relative;
   }
-
+ 
   .box{
     position: absolute;
     height: 150px;
@@ -104,7 +104,7 @@ body {
   .box-5{
     bottom: 0;
     position: center;
-  }
+  } */
 
   
 
