@@ -13,7 +13,6 @@ body {
     overflow: hidden;
     background-color:rgb(236, 245, 244);
     height: 100px;
-    padding-bottom: 50px;
   }
   
   .topnav a {
@@ -29,7 +28,7 @@ body {
     background-color: #4AAAA5;
     color: white;
     font-size: 28px;
-    margin-left: 260px;
+    margin-left: 280px;
     }
 
  /* .topnav-right a:hover {
