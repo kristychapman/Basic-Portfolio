@@ -2,8 +2,7 @@ body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("./concrete_seamless.png");
-    background-attachment: fixed;
+    background-image: url('../images/concrete_seamless.png');
 }
 
 /*Global css*/
@@ -11,12 +10,13 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    
 }
-
+/*Header css*/
 header{
-    background:  ;
+    background:#9Ac7ef;
     color: black;
-    padding: 30px;
+    padding: 0px;
     min-height: 70px;
 
 }
@@ -28,13 +28,13 @@ header a{
 
 header ul{
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 header li{
-    float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    margin: 10px 0 10px 0;
+    
 }
 
 header #name{
@@ -42,6 +42,40 @@ header #name{
 }
 
 header #name h1{
-    margin-left: 280px;
-    background-color: turquoise;
+    margin: 0 0 0 220px;
+    padding: 15px;
+    background-color: #4AAAA5;
+}
+
+header nav{
+    float:right;
+}
+
+header a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+/*About Me css*/
+#about{
+    min-height: 600px;
+    background-color: #F3F3F2;
+    margin: 60px 300px 100px 300px;
+}
+#bio-image{
+    width: 200px;
+    height: 200px;
+}
+
+#about p{
+    float: left;
+}
+
+footer{
+    background-color: #5C5957;
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+footer p{
+    text-align: center;
 }
