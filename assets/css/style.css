@@ -71,11 +71,11 @@ header a:hover{
     float: left;
 }
 
-footer{
+.footer{
+    background-position: fixed bottom;
+    border-top: 5px solid #4aaaa5;
     background-color: #5C5957;
     width: 100%;
     padding: 20px 0 0 0;
-}
-footer p{
     text-align: center;
 }
